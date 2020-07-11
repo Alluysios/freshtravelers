@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="dashboard">
+            <a href="/" class='button button--tertiary'> &larr; Home</a>
+            <h1>My Account</h1>
+            <div class="dashboard__account">
+                <form action="#" class='form form--account'>
+                    <div class="form__group">
+                        <label class="form__label">First Name</label>
+                        <input type='text' name='firstname' id='firstname' class="form__input" value='Ryan'>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">lastname</label>
+                        <input type='text' name='lastname' id='lastname' class="form__input" value="Smith">
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">email</label>
+                        <input type='email' name='email' id='email' class="form__input" value="ryan@yahoo.com">
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">username</label>
+                        <input type='text' name='username' id='username' class="form__input" value="ryan123">
+                    </div>
+                    <div class="form__group">
+                        <img src="img/allu.jpg" alt="" class='form__img'>
+                        <input type='file' name='username' id='username' class="form__input" value="ryan123">
+                    </div>
+                    <input type="submit" value='Update Account' class='button--tertiary'>
+                </form>
+            </div>
+            <div class="divider"></div>
+            <h1>Change Password</h1>
+            <div class="dashboard__password">
+                <form action="#" class='form form--account'>
+                    <div class="form__group">
+                        <label class="form__label">current password</label>
+                        <input type='password' name='password' id='password' class="form__input" value="******">
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">password</label>
+                        <input type='password' name='password' id='password' class="form__input" value="******">
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label">confirm password</label>
+                        <input type='password' name='passwordConfirm' id='passwordConfirm' class="form__input" value="******">
+                    </div>
+                    <input type="submit" value='Change Password' class='button--tertiary'>
+                </form>
+            </div>
+            <div class="divider"></div>
+            <h1>Blogs</h1>
+            <div class="dashboard__admin">
+                <table class='table'>
+                    <tr>
+                        <th>Title</th>
+                        <th>Continent</th>
+                        <th class='hide-sm-t'>Tags</th>
+                        <th class='hide-sm-t'>Image</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Avocado Lover</td>
+                        <td>ASIA</td>
+                        <td class='hide-sm-t'>Food, Cities</td>
+                        <td class='hide-sm-t'><img src="img/avocado.jpg" alt="avocado lover"></td>
+                        <td>
+                            <a href="/" class='button button--danger'>delete</a>
+                            <a href="/" class='button button--update'>update</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Avocado Lover</td>
+                        <td>ASIA</td>
+                        <td class='hide-sm-t'>Night Life, Nature</td>
+                        <td class='hide-sm-t'><img src="img/avocado.jpg" alt="avocado lover"></td>
+                        <td>
+                            <a href="/" class='button button--danger'>delete</a>
+                            <a href="/" class='button button--update'>update</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
